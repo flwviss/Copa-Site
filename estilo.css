@@ -1,0 +1,205 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-direction: row;
+	background: linear-gradient(to bottom, #660033 0%, #F0F0F0 100%);
+	width: 100%;
+	height: 25vh;
+}
+.m1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%; 
+	height: 5vh;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.p1{
+	font-family: serif;
+	font-size: 120%;
+	color: white;
+	margin-left: 5%;
+}
+.p2{
+	font-family: serif;
+	font-size: 120%;
+	color: white;
+	margin-left: 5%;
+}
+.p3{
+	font-family: serif;
+	font-size: 120%;
+	color: #660033;
+	margin-left: 5%;
+}
+.p4{
+	font-family: serif;
+	font-size: 120%;
+	color: white;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.m2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width: 20%;
+	height: 10vh;
+	margin-right: 1%;
+	margin-top: 1%;
+}
+.mini1{
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+	height: 8vh;
+	margin-top: 2%;
+}
+.fifa14{
+	width: 100%;
+	height: 8vh;
+}
+.mini2{
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+	height: 8vh;
+	margin-top:2%;
+}
+.fifa18{
+	width: 100%;
+	height: 8vh;
+}
+.mini3{
+	display: flex;
+	flex-wrap: wrap;
+	width: 20%;
+	height: 8vh;
+	margin-top: 2%;
+}
+.fifa22{
+	width: 100%;
+	height: 8vh;
+}
+.grande{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 68vh;
+}
+.capa{
+	width: 100%;
+	height: 68vh;
+}
+.corpo1{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(to top, #660033 0%, #F0F0F0 100%);
+	width: 100%;
+	height: 55vh;
+}
+.item1{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 60vh;
+}
+.qatar{
+	width: 90%;
+	height: 20vh;
+	margin-left: 5%;
+	margin-top: 30%;
+}
+.item2{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 60vh;
+}
+.equador{
+	width: 90%;
+	height: 20vh;
+	margin-left: 5%;
+	margin-top: 30%;
+}
+.item3{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 60vh;
+}
+.senegal{
+	width: 90%;
+	height: 20vh;
+	margin-left: 5%;
+	margin-top: 30%;
+}
+.item4{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 60vh;
+}
+.holanda{
+	width: 90%;
+	height: 20vh;
+	margin-left: 5%;
+	margin-top: 30%;
+}
+.corpo2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: linear-gradient(to bottom, #660033 10%, #F0F0F0 100%);
+	width: 100%;
+	height: 50vh;
+}
+.qua1{
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to bottom, #660033 10%, #F0F0F0 100%);
+	width: 30%;
+	height: 50vh;
+}
+.esquerda{
+	width: 100%;
+	height: 50vh;
+}
+.qua2{
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to bottom, #660033 10%, #F0F0F0 100%);
+	width: 35%;
+	height: 50vh;
+}
+.qua3{
+	display: flex;
+	flex-wrap: wrap;
+	background: linear-gradient(to bottom, #660033 10%, #F0F0F0 100%);
+	width: 30%;
+	height: 50vh;
+}
+.direita{
+	width: 100%;
+	height: 50vh;
+}
+
+@media (max-width: 700px){
+	.qua1, .qua3 {
+		display: none;
+	}
+	.qua2 {
+		width: 100%;
+	}
+	.mini1, .mini2 {
+		display: none;
+	}
+}
